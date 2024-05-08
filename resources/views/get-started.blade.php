@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.css' integrity='sha512-VcyUgkobcyhqQl74HS1TcTMnLEfdfX6BbjhH8ZBjFU9YTwHwtoRtWSGzhpDVEJqtMlvLM2z3JIixUOu63PNCYQ==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>Hello Laravel</title>
 </head>
 <body>
@@ -15,7 +16,7 @@
         </div>
     </nav>
 
-    <div class="container my-5 py-5">
+    <div class="container vh-100 flex-column flex-center bg_opacity">
         <row class="row row-cols-3">
             <div class="col d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">

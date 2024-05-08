@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.css' integrity='sha512-VcyUgkobcyhqQl74HS1TcTMnLEfdfX6BbjhH8ZBjFU9YTwHwtoRtWSGzhpDVEJqtMlvLM2z3JIixUOu63PNCYQ==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <title>Hello Laravel</title>
 </head>
 <body>
@@ -15,35 +16,34 @@
         </div>
     </nav>
 
-    <div class="container my-5 py-5 text-center">
+    <div class="container vh-100 flex-column flex-center bg_opacity">
         <h1>Home</h1>
 
         <h3>Hello <span class="text-primary">{{ $name . ' ' . $lastname }}</span>, this is your team!</h3>
 
         <div class="container my-5">
             <div class="row row-cols-3" style="min-height: 400px;">
-                <div class="col">
+                <div class="col text-center">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/1" alt="pkmn1" style="max-width: 250px;">
                 </div>
 
-                <div class="col">
+                <div class="col text-center">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/2" alt="pkmn2" style="max-width: 250px;">
                 </div>
 
-
-                <div class="col">
+                <div class="col text-center">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/3" alt="pkmn3" style="max-width: 250px;">
                 </div>
 
-                <div class="col">
+                <div class="col text-center">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/4" alt="pkmn4" style="max-width: 250px;">
                 </div>
 
-                <div class="col">
+                <div class="col text-center">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/5" alt="pkmn5" style="max-width: 250px;">
                 </div>
 
-                <div class="col">
+                <div class="col text-center">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/6" alt="pkmn6" style="max-width: 250px;">
                 </div>
             </div>
