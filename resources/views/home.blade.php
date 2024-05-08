@@ -21,7 +21,7 @@
         <h3>Hello <span class="text-primary">{{ $name . ' ' . $lastname }}</span>, this is your team!</h3>
 
         <div class="container my-5">
-            <div class="row row-cols-3">
+            <div class="row row-cols-3" style="min-height: 400px;">
                 <div class="col">
                     <img src="https://lorempokemon.fakerapi.it/pokemon/200/1" alt="pkmn1" style="max-width: 250px;">
                 </div>
