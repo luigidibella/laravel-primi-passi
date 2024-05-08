@@ -11,3 +11,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.image {
+    width: 200px;
+    height: 200px;
+    background-image: url('image.jpg');
+    background-size: cover;
+    animation: fadeInOut 7s infinite;
+    opacity: 0;
+    animation-delay: 3s;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+}

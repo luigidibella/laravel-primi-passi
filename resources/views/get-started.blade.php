@@ -16,7 +16,7 @@
         </div>
     </nav>
 
-    <div class="container vh-100 flex-column flex-center bg_opacity">
+    <div class="container vh-100 flex-column flex-center bg_opacity position-relative">
         <row class="row row-cols-3">
             <div class="col d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
@@ -51,10 +51,19 @@
                         <ul>
                           <li><a href="https://www.pokemon.com/it/pokedex/{{ $pkmn_3_name }}" target="_blank">more info</a></li>
                         </ul>
-                      </div>
+                    </div>
                 </div>
             </div>
         </row>
+
+        {{-- Easter Egg --}}
+        <div class="div position-absolute top-50 end-0">
+            <img src="{{ asset('css\img\wait-for.png') }}" alt="wait-for" style="max-width: 200px; filter: opacity(30%);">
+        </div>
+        <div class="div position-absolute image top-50 end-0">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/302_f2.png" alt="sableye" style="max-width: 400px;">
+        </div>
+        {{-- /Easter Egg --}}
     </div>
 
     <footer class="bg-black fixed-bottom">
