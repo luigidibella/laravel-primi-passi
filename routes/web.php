@@ -21,5 +21,13 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/get-started', function () {
-    return view('get-started');
+    $pkmn_1_name = 'bulbasaur';
+    $pkmn_2_name = 'charmander';
+    $pkmn_3_name = 'squirtle';
+
+    $pkmn_1_desc = 'pokémon seed';
+    $pkmn_2_desc = 'pokémon lizard';
+    $pkmn_3_desc = 'pokémon tiny turtle';
+
+    return view('get-started', compact('pkmn_1_name', 'pkmn_2_name', 'pkmn_3_name', 'pkmn_1_desc', 'pkmn_2_desc', 'pkmn_3_desc'));
 })->name('get-started');

@@ -20,38 +20,38 @@
         <row class="row row-cols-3">
             <div class="col d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" class="card-img-top" alt="bulbasaur">
+                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" class="card-img-top" alt="{{ $pkmn_1_name }}">
                     <div class="card-body">
-                      <h5 class="card-title">Bulbasaur</h5>
-                      <p class="card-text">Pokémon Seed</p>
+                      <h5 class="card-title text-capitalize">{{ $pkmn_1_name }}</h5>
+                      <p class="card-text text-capitalize">{{ $pkmn_1_desc }}</p>
                       <ul>
-                        <li><a href="https://www.pokemon.com/it/pokedex/bulbasaur" target="_blank">more info</a></li>
+                        <li><a href="https://www.pokemon.com/it/pokedex/{{ $pkmn_1_name }}" target="_blank">more info</a></li>
                       </ul>
                     </div>
                 </div>
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" class="card-img-top" alt="charmander">
+                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" class="card-img-top" alt="{{ $pkmn_2_name }}">
                     <div class="card-body">
-                      <h5 class="card-title">Charmander</h5>
-                      <p class="card-text">Pokémon Lizard</p>
+                      <h5 class="card-title text-capitalize">{{ $pkmn_2_name }}</h5>
+                      <p class="card-text text-capitalize">{{ $pkmn_2_desc }}</p>
                       <ul>
-                        <li><a href="https://www.pokemon.com/it/pokedex/charmander" target="_blank">more info</a></li>
+                        <li><a href="https://www.pokemon.com/it/pokedex/{{ $pkmn_2_name }}" target="_blank">more info</a></li>
                       </ul>
                     </div>
                 </div>
             </div>
             <div class="col d-flex justify-content-center">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" class="card-img-top" alt="squirtle">
+                    <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" class="card-img-top" alt="{{ $pkmn_3_name }}">
                     <div class="card-body">
-                      <h5 class="card-title">Squirtle</h5>
-                      <p class="card-text">Pokémon Tiny Turtle</p>
-                      <ul>
-                        <li><a href="https://www.pokemon.com/it/pokedex/squirtle" target="_blank">more info</a></li>
-                      </ul>
-                    </div>
+                        <h5 class="card-title text-capitalize">{{ $pkmn_3_name }}</h5>
+                        <p class="card-text text-capitalize">{{ $pkmn_3_desc }}</p>
+                        <ul>
+                          <li><a href="https://www.pokemon.com/it/pokedex/{{ $pkmn_3_name }}" target="_blank">more info</a></li>
+                        </ul>
+                      </div>
                 </div>
             </div>
         </row>
