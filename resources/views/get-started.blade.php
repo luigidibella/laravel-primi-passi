@@ -11,7 +11,7 @@
     <nav class="navbar fixed-top bg-body-tertiary border-bottom">
         <div class="container-fluid d-flex justify-content-start">
             <a class="navbar-brand" href="#">Hello Laravel</a>
-            <a class="btn btn-danger" href="/">Home</a>
+            <a class="btn btn-danger" href="{{ route('home') }}">Home</a>
         </div>
     </nav>
 
@@ -24,7 +24,7 @@
                       <h5 class="card-title">Bulbasaur</h5>
                       <p class="card-text">Pokémon Seed</p>
                       <ul>
-                        <li><a href="https://www.pokemon.com/it/pokedex/bulbasaur">more info</a></li>
+                        <li><a href="https://www.pokemon.com/it/pokedex/bulbasaur" target="_blank">more info</a></li>
                       </ul>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                       <h5 class="card-title">Charmander</h5>
                       <p class="card-text">Pokémon Lizard</p>
                       <ul>
-                        <li><a href="https://www.pokemon.com/it/pokedex/charmander">more info</a></li>
+                        <li><a href="https://www.pokemon.com/it/pokedex/charmander" target="_blank">more info</a></li>
                       </ul>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                       <h5 class="card-title">Squirtle</h5>
                       <p class="card-text">Pokémon Tiny Turtle</p>
                       <ul>
-                        <li><a href="https://www.pokemon.com/it/pokedex/squirtle">more info</a></li>
+                        <li><a href="https://www.pokemon.com/it/pokedex/squirtle" target="_blank">more info</a></li>
                       </ul>
                     </div>
                 </div>

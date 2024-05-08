@@ -11,7 +11,7 @@
     <nav class="navbar fixed-top bg-body-tertiary border-bottom">
         <div class="container-fluid d-flex justify-content-start">
             <a class="navbar-brand" href="#">Hello Laravel</a>
-            <a class="btn btn-success" href="/get-started">Get Started</a>
+            <a class="btn btn-success" href="{{ route('get-started') }}">Get Started</a>
         </div>
     </nav>
 
@@ -49,7 +49,7 @@
             </div>
         </div>
 
-        <a class="btn btn-primary" href="/">Change Team</a>
+        <a class="btn btn-primary" href="{{ route('home') }}">Change Team</a>
 
     </div>
 
